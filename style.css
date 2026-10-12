@@ -1,3 +1,53 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1{
-    color: brown;
+    font-family: monospace;
+}
+
+h2{
+    color: rosybrown;
+}
+
+.logo{
+    width: 40px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    background-color: lightgray;
+}
+
+
+article{
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    transition: 0.4s;
+}
+
+article img{
+    width: 300px;
+}
+
+article:hover{
+    background-color: rosybrown;
+}
+
+.backround_header{
+    background-image: url(./media/backround_header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    background-color: lightgray;
 }
